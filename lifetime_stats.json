@@ -1,9 +1,9 @@
 {
   "started_at": "2026-11-28 01:04",
-  "wins": 2,
-  "losses": 6,
+  "wins": 4,
+  "losses": 8,
   "breakevens": 0,
-  "net_r": -3.088,
+  "net_r": -1.617,
   "counted": {
     "VVVUSDT|LONG|1795817175462": {
       "sym": "VVVUSDT",
@@ -92,6 +92,50 @@
       "r": -1.023,
       "book": "watch",
       "ts": 1795870800166
+    },
+    "TRUMPUSDT|SHORT|1795828330146": {
+      "sym": "TRUMPUSDT",
+      "side": "SHORT",
+      "grade": "B",
+      "reach": "A",
+      "trade_status": "CLOSED_TP3",
+      "res": "W",
+      "r": 2.648,
+      "book": "watch",
+      "ts": 1795884460575
+    },
+    "PIEVERSEUSDT|LONG|1795828330146": {
+      "sym": "PIEVERSEUSDT",
+      "side": "LONG",
+      "grade": "C",
+      "reach": "B",
+      "trade_status": "CLOSED_BE",
+      "res": "W",
+      "r": 0.87,
+      "book": "watch",
+      "ts": 1795884460575
+    },
+    "ROBOUSDT|SHORT|1795870795881": {
+      "sym": "ROBOUSDT",
+      "side": "SHORT",
+      "grade": "A",
+      "reach": "A",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.025,
+      "book": "watch",
+      "ts": 1795884460575
+    },
+    "VELVETUSDT|LONG|1795870795881": {
+      "sym": "VELVETUSDT",
+      "side": "LONG",
+      "grade": "C",
+      "reach": "A",
+      "trade_status": "CLOSED_STOP",
+      "res": "L",
+      "r": -1.022,
+      "book": "watch",
+      "ts": 1795884460575
     }
   },
   "exec": {
@@ -102,33 +146,33 @@
     "count": 2
   },
   "watch": {
-    "wins": 1,
-    "losses": 5,
+    "wins": 3,
+    "losses": 7,
     "breakevens": 0,
-    "net_r": -4.456,
-    "count": 6
+    "net_r": -2.985,
+    "count": 10
   },
   "by_grade": {
     "A": {
       "wins": 1,
-      "losses": 1,
+      "losses": 2,
       "breakevens": 0,
-      "net_r": 1.368,
-      "count": 2
+      "net_r": 0.343,
+      "count": 3
     },
     "B": {
-      "wins": 0,
+      "wins": 1,
       "losses": 0,
       "breakevens": 0,
-      "net_r": 0,
-      "count": 0
+      "net_r": 2.648,
+      "count": 1
     },
     "C": {
-      "wins": 1,
-      "losses": 5,
+      "wins": 2,
+      "losses": 6,
       "breakevens": 0,
-      "net_r": -4.456,
-      "count": 6
+      "net_r": -4.608,
+      "count": 8
     },
     "unknown": {
       "wins": 0,
@@ -138,5 +182,5 @@
       "count": 0
     }
   },
-  "updated_at": "2026-11-28 16:00"
+  "updated_at": "2026-11-28 19:47"
 }
